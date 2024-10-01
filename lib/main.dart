@@ -60,6 +60,16 @@ class MyApp extends StatelessWidget {
      )
   );
 
+    //widget text section
+    Widget textsection = Container(
+  padding: const EdgeInsets.all(32),
+  child: const Text(
+    'Wild camping is prohibited in the entire region Oeschinensee . A ranger is out and about in the area every day, including in the evenings, to inform guests. Among other things, wild campers who disregard the camping ban will be asked to take down their tents. Please only use official campsites for overnight stays. '
+    'Tambahkan nama dan NIM Anda sebagai '
+    'Wahyu Laksono Saputra, 362358302107',
+    softWrap: true,
+  ),
+);
   
 
   return MaterialApp(
@@ -79,8 +89,8 @@ class MyApp extends StatelessWidget {
 
 
         titleSection,
-        buttonsection
-        //textsection
+        buttonsection,
+        textsection
 
       ],
      ) 
